@@ -1,5 +1,5 @@
 use subcrate::*;
 
 fn main() {
-	<GenericObj::<{Const{}}> as Test>::ret();
+	<Foo::<{Const{}}> as Bar>::associated();
 }
