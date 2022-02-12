@@ -8,6 +8,7 @@ pub struct Const {}
 impl Const {
 	pub const fn func(self) -> usize { 1 }
 }
+#[derive(Default)]
 pub struct GenericObj<const C: Const>
 where
 	[(); C.func()]: Sized
