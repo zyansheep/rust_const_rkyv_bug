@@ -7,7 +7,6 @@ edition = "2021"
 
 [dependencies]
 subcrate = { path = "subcrate/" }
-rkyv = "0.7.31"
 
 [workspace.metadata.nix]
 nativeBuildInputs = [
